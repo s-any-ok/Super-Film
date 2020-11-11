@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Super-Film/static/css/main.52004493.chunk.css",
+    "main.js": "/Super-Film/static/js/main.268dcf4a.chunk.js",
+    "main.js.map": "/Super-Film/static/js/main.268dcf4a.chunk.js.map",
+    "runtime-main.js": "/Super-Film/static/js/runtime-main.fb7a42c4.js",
+    "runtime-main.js.map": "/Super-Film/static/js/runtime-main.fb7a42c4.js.map",
+    "static/css/2.0440f8c5.chunk.css": "/Super-Film/static/css/2.0440f8c5.chunk.css",
+    "static/js/2.301cdfd0.chunk.js": "/Super-Film/static/js/2.301cdfd0.chunk.js",
+    "static/js/2.301cdfd0.chunk.js.map": "/Super-Film/static/js/2.301cdfd0.chunk.js.map",
+    "static/js/3.5002508a.chunk.js": "/Super-Film/static/js/3.5002508a.chunk.js",
+    "static/js/3.5002508a.chunk.js.map": "/Super-Film/static/js/3.5002508a.chunk.js.map",
+    "index.html": "/Super-Film/index.html",
+    "static/css/2.0440f8c5.chunk.css.map": "/Super-Film/static/css/2.0440f8c5.chunk.css.map",
+    "static/css/main.52004493.chunk.css.map": "/Super-Film/static/css/main.52004493.chunk.css.map",
+    "static/js/2.301cdfd0.chunk.js.LICENSE.txt": "/Super-Film/static/js/2.301cdfd0.chunk.js.LICENSE.txt",
+    "static/media/tv.f3c4ac4e.png": "/Super-Film/static/media/tv.f3c4ac4e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fb7a42c4.js",
+    "static/css/2.0440f8c5.chunk.css",
+    "static/js/2.301cdfd0.chunk.js",
+    "static/css/main.52004493.chunk.css",
+    "static/js/main.268dcf4a.chunk.js"
+  ]
+}
