@@ -21,7 +21,6 @@ const filmsReducer = (state = initialState, action) => {
       return { ...state, isStartPage: action.isStartPage };
     case TOGGLE_IS_FETCHING:
       return { ...state, isFetching: action.isFetching };
-
     default:
       return state;
   }

@@ -8,7 +8,7 @@ const Films = (props) => {
     <>
       <div className={s.filmsDate}>
         <h5>
-          {new Intl.DateTimeFormat("en-GB", {
+          {new Intl.DateTimeFormat("ru", {
             year: "numeric",
             month: "long",
             day: "2-digit",
@@ -40,8 +40,8 @@ const Film = ({ image, name, date, season, number }) => {
         <div className={s.filmName}>{name}</div>
         <div className={s.filmDate}>{date.slice(0, 4)}</div>
         <div className={s.seasonEpisode}>
-          <div>Season: {season}</div>
-          <div>Episode: {number}</div>
+          <div>Сезон: {season}</div>
+          <div>Эпизод: {number}</div>
         </div>
       </div>
     </div>
