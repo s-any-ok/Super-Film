@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: 50;
+  height: 50px;
+  background-color: #f1f1f1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
