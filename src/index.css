@@ -12,14 +12,23 @@
 
 .header {
   display: flex;
-  align-items: center;
   justify-content: center;
-  font-family: sans-serif;
-  font-weight: 50;
+  flex-direction: column;
+  width: 100%;
   height: 50px;
   background-color: #f1f1f1;
 }
-
+.header img {
+  display: block;
+  margin-left: 35%;
+  width: 30%;
+}
+img.arrow {
+  float: left;
+  display: block;
+  margin-left: 4%;
+  width: 3%;
+}
 .content {
   display: flex;
   flex-direction: column;

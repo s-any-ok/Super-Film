@@ -6,8 +6,14 @@ import film from "../../assets/film.png";
 const Films = (props) => {
   return (
     <>
-      <div className={s.filmDate}>
-        <h5>{props.date}</h5>
+      <div className={s.filmsDate}>
+        <h5>
+          {new Intl.DateTimeFormat("en-GB", {
+            year: "numeric",
+            month: "long",
+            day: "2-digit",
+          }).format(props.date)}
+        </h5>
       </div>
       <div>
         {props.films.map((f) => (
@@ -24,14 +30,20 @@ const Films = (props) => {
   );
 };
 
-const Film = ({ image }) => {
-  debugger;
+const Film = ({ image, name, date, season, number }) => {
   return (
     <div className={s.filmWrapper}>
-      <div>
+      <div className={s.filmImg}>
         <img src={image === null ? film : image.medium} alt="film" />
       </div>
-      <div>Content</div>
+      <div className={s.filmContent}>
+        <div className={s.filmName}>{name}</div>
+        <div className={s.filmDate}>{date.slice(0, 4)}</div>
+        <div className={s.seasonEpisode}>
+          <div>Season: {season}</div>
+          <div>Episode: {number}</div>
+        </div>
+      </div>
     </div>
   );
 };
