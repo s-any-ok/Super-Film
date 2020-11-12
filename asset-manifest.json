@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Super-Film/static/css/main.184456d4.chunk.css",
-    "main.js": "/Super-Film/static/js/main.11217cf9.chunk.js",
-    "main.js.map": "/Super-Film/static/js/main.11217cf9.chunk.js.map",
+    "main.js": "/Super-Film/static/js/main.22bd7ed5.chunk.js",
+    "main.js.map": "/Super-Film/static/js/main.22bd7ed5.chunk.js.map",
     "runtime-main.js": "/Super-Film/static/js/runtime-main.b2d4116e.js",
     "runtime-main.js.map": "/Super-Film/static/js/runtime-main.b2d4116e.js.map",
     "static/css/2.0440f8c5.chunk.css": "/Super-Film/static/css/2.0440f8c5.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.0440f8c5.chunk.css",
     "static/js/2.a03e7ca1.chunk.js",
     "static/css/main.184456d4.chunk.css",
-    "static/js/main.11217cf9.chunk.js"
+    "static/js/main.22bd7ed5.chunk.js"
   ]
 }
