@@ -7,7 +7,7 @@ const instantion = axios.create({
 export const filmsAPI = {
   getFilms(date) {
     return instantion
-      .get(`schedule?country=UA&date=${date}`)
+      .get(`schedule?country=US&date=${date}`)
       .then((response) => response.data);
   },
 };

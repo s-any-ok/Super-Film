@@ -52,7 +52,7 @@ export const requestFilms = (date) => async (dispath) => {
   //dispath(toggleIsFetching(true));
   //dispath(toggleIsFetching(false));
 };
-export const checkIsStartPage = (isStartPage) => async (dispath) => {
+export const checkIsStartPage = (isStartPage) => (dispath) => {
   dispath(setIsStartPage(isStartPage));
 };
 

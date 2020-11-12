@@ -7,7 +7,7 @@ import { checkIsStartPage } from "../../redux/reducers/filmsReducer";
 const Header = (props) => {
   const goBack = () => {
     props.history.goBack();
-    setTimeout(() => props.checkIsStartPage(true), 100);
+    props.checkIsStartPage(true);
   };
   return (
     <div>
