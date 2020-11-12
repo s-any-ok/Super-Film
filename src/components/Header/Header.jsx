@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { connect } from "react-redux";
 import superFilm from "../../assets/Super Film.png";
 import arrow from "../../assets/Shape.png";
@@ -9,6 +10,9 @@ const Header = (props) => {
     props.history.goBack();
     props.checkIsStartPage(true);
   };
+  useEffect(() => {
+    if (props.location.pathname === "/") props.checkIsStartPage(true);
+  });
   return (
     <div>
       {!props.isStartPage && (
